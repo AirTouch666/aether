@@ -23,14 +23,14 @@ setup(
     packages=find_packages(),
     python_requires=">=3.7",
     install_requires=[
-        "click",
-        "openai",
-        "google-generativeai",
-        "aiohttp",
-        "websockets",
-        "requests",
-        "halo",
-        "certifi"
+        "click>=8.0.0",
+        "openai>=0.27.0",
+        "google-generativeai>=0.3.0",
+        "aiohttp>=3.8.0",
+        "websockets>=10.0",
+        "requests>=2.25.0",
+        "halo>=0.0.31",
+        "certifi>=2021.5.30"
     ],
     entry_points={
         "console_scripts": [
