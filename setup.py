@@ -6,6 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="aether-cli",
     version="0.1.0",
+    keywords="ai",
     author="AirTouch666",
     author_email="me@airtouch.top",
     description="A command-line interface for interacting with various AI models.",
